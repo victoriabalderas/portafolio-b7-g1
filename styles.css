@@ -7,3 +7,31 @@ body {
     display: flex;
     justify-content: center;
 }
+
+#proyecto-1{
+    background-image: url('assets/google-negro.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#proyecto-2{
+    background-image: url('assets/miprimerapag.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#proyecto-3{
+    background-image: url('assets/portafoliocap.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.proyectos {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-shadow{
+    text-shadow: -2px 0px 6px rgb(96, 94, 94);
+}
