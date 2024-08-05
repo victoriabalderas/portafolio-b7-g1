@@ -17,9 +17,9 @@
 <body>
   <!--Cabecera de mi página-->
   <header>
-    <nav class="navbar navbar-expand-lg bg-primary-subtle" data-bs-theme="dark">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand text-primary-emphasis fw-bolder" href="#">Victoria</a>
+        <a class="navbar-brand navbar navbar-dark bg-dark fw-bolder" href="#">Victoria</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,19 +27,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-primary-emphasis" aria-current="page" href="presentacion">Sobre mí</a>
+              <a class="nav-link active bg-dark" aria-current="page" href="presentacion">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="habilidades">Habilidades</a>
+              <a class="nav-link bg-dark" href="habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="proyectos">Proyectos</a>
+              <a class="nav-link bg-dark" href="proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="Testimonios">Testimonios</a>
+              <a class="nav-link bg-dark" href="Testimonios">Testimonios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary-emphasis" href="Contacto">Contacto</a>
+              <a class="nav-link bg-dark" href="Contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@
 
 
   <main>
-    <section id="presentacion" class="container-fluid" data-bs-theme="dark" >
+    <section id="presentacion" class="container-fluid" data-bs-theme="dark">
       <div class="container col-xxl-8 px-4 py-5 h-75">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -59,7 +59,8 @@
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Victoria Balderas
             </h1>
-            <p class="lead fw-normal">Soy estudiante de la Licenciatura en Tecnologías de la Información en FACPYA, con
+            <p class="text-white text-font-weight-bold">Soy estudiante de la Licenciatura en Tecnologías de la
+              Información en FACPYA, con
               una profunda
               pasión por la música y la lengua francesa. Comprometida con el aprendizaje continuo, me enfoco en expandir
               mis conocimientos y habilidades en programación para destacar en el mundo tecnológico.</p>
@@ -79,24 +80,21 @@
       <!--Contenedor de mis cartas-->
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 py-2 px-3">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-3">
             <i class="bi bi-code-square"></i>
           </div>
           <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
           <p>Conocimientos en HTML, CSS y JavaScript.</p>
         </div>
         <div class="feature col">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 py-2 px-3">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-3">
             <i class="bi bi-people"></i>
           </div>
           <h3 class="fs-2 text-body-emphasis">Trabajo en Equipo</h3>
           <p>Colaboro con equipo multidisciplinario.</p>
         </div>
         <div class="feature col">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 py-2 px-3">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-3">
             <i class="bi bi-award"></i>
           </div>
           <h3 class="fs-2 text-body-emphasis">Responsabilidad</h3>
@@ -107,7 +105,7 @@
     </section>
 
 
-    <section id="proyectos" class="container px-4 py-5">
+    <section id="proyectos" class="container px-4 py-1">
       <h2 class="pb-2 border-bottom">Proyectos</h2>
 
       <div id="proyectos" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -166,13 +164,14 @@
 
 
     <section id="Testimonios">
-      <div id="myCarousel" class="carousel carrousel-dark Slide mb-6 carrousel-fade" data-bs-theme="dark" data-bs-ride="carousel">
+      <div id="myCarousel" class="carousel carrousel-dark Slide mb-6 carrousel-fade" data-bs-theme="dark"
+        data-bs-ride="carousel">
 
         <div class="carousel-inner">
 
           <div class="carousel-item active">
             <article class="container text-center">
-              <img class="rounded-5" src="assets/ada-lovelace.jpg" alt="adalovelace" height="200px" >
+              <img class="rounded-5" src="assets/ada-lovelace.jpg" alt="adalovelace" height="200px">
               <h3 class="my-3">Ada Lovelace</h3>
               <p>Victoria es una estudiante excepcional.</p>
             </article>
@@ -180,17 +179,17 @@
 
           <div class="carousel-item">
             <article class="container text-center">
-              <img class="rounded-5" src="assets/stark.webp" alt="tonystark" height="200px" >
+              <img class="rounded-5" src="assets/stark.webp" alt="tonystark" height="200px">
               <h3 class="my-3">Tony Stark</h3>
-              <p>Victoria es una estudiante excepcional.</p>
+              <p>Victoria es una programadora excepcional.</p>
             </article>
           </div>
 
           <div class="carousel-item">
             <article class="container text-center">
-              <img class="rounded-5" src="assets/fury.png" alt="Nick fury" height="200px" >
+              <img class="rounded-5" src="assets/fury.png" alt="Nick fury" height="200px">
               <h3 class="my-3">Nick Fury</h3>
-              <p>Victoria es una estudiante excepcional.</p>
+              <p>Victoria es una agente excepcional.</p>
             </article>
           </div>
 
@@ -209,15 +208,18 @@
   </main>
 
 
-  <footer id="Contacto" class="py-3 my-4">
+  <footer id="Contacto" class="bg-black py-3" data-bs-theme="dark">
+    <h4 class="text-white text-center my-3 ">"I'm still standing, after all this time..." </h4>
+    
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item">
+        <a href="https://github.com/victoriabalderas" target="_blank" class="nav-link px-2 text-body-secondary">GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://linkedin.com/in/victoria-balderass" target="_blank" class="nav-link px-2 text-body-secondary">LinkedIn</a>
+      </li>
     </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <p class="text-center text-body-secondary">© 2024, Victoria TECHNOLOCHICAS PRO </p>
   </footer>
 
 
@@ -225,9 +227,11 @@
 
 
 
-  
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

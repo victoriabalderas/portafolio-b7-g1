@@ -6,7 +6,7 @@ body {
     height: 88vh;
     display: flex;
     justify-content: center;
-    background-image: url('assets/coding-4k-wallpaper.jpg');
+    background-image: url('assets/desktop-wallpaper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,7 @@ body {
     background-position: center;
 }
 #proyecto-3{
-    background-image: url('assets/portafoliocap.png');
+    background-image: url('assets/portafolio.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
