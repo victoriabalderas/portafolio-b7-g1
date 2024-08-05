@@ -49,22 +49,24 @@
 
 
   <main>
-    <section id="presentacion" class="container col-xxl-8 px-4 py-5 h-75">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="assets/woman.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-            height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Victoria Balderas
-          </h1>
-          <p class="lead fw-normal">Soy estudiante de la Licenciatura en Tecnologías de la Información en FACPYA, con
-            una profunda
-            pasión por la música y la lengua francesa. Comprometida con el aprendizaje continuo, me enfoco en expandir
-            mis conocimientos y habilidades en programación para destacar en el mundo tecnológico.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">victoriabalderassg@gmail.com</button>
+    <section id="presentacion" class="container-fluid" data-bs-theme="dark" >
+      <div class="container col-xxl-8 px-4 py-5 h-75">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/woman.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+              height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> Victoria Balderas
+            </h1>
+            <p class="lead fw-normal">Soy estudiante de la Licenciatura en Tecnologías de la Información en FACPYA, con
+              una profunda
+              pasión por la música y la lengua francesa. Comprometida con el aprendizaje continuo, me enfoco en expandir
+              mis conocimientos y habilidades en programación para destacar en el mundo tecnológico.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">victoriabalderassg@gmail.com</button>
+            </div>
           </div>
         </div>
       </div>
@@ -109,7 +111,6 @@
       <h2 class="pb-2 border-bottom">Proyectos</h2>
 
       <div id="proyectos" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-
         <div class="col">
           <div id="proyecto-1" class="proyectos card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
 
@@ -139,7 +140,7 @@
                     class="rounded-circle border border-white">
                 </li>
               </ul>
-              
+
             </div>
           </div>
         </div>
@@ -156,7 +157,7 @@
                     class="rounded-circle border border-white">
                 </li>
               </ul>
-              
+
             </div>
           </div>
         </div>
@@ -165,56 +166,36 @@
 
 
     <section id="Testimonios">
-      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-            aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-            class=""></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
-            aria-current="true"></button>
-        </div>
+      <div id="myCarousel" class="carousel carrousel-dark Slide mb-6 carrousel-fade" data-bs-theme="dark" data-bs-ride="carousel">
+
         <div class="carousel-inner">
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
-            </div>
-          </div>
+
           <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
-            </div>
+            <article class="container text-center">
+              <img class="rounded-5" src="assets/ada-lovelace.jpg" alt="adalovelace" height="200px" >
+              <h3 class="my-3">Ada Lovelace</h3>
+              <p>Victoria es una estudiante excepcional.</p>
+            </article>
           </div>
+
+          <div class="carousel-item">
+            <article class="container text-center">
+              <img class="rounded-5" src="assets/stark.webp" alt="tonystark" height="200px" >
+              <h3 class="my-3">Tony Stark</h3>
+              <p>Victoria es una estudiante excepcional.</p>
+            </article>
+          </div>
+
+          <div class="carousel-item">
+            <article class="container text-center">
+              <img class="rounded-5" src="assets/fury.png" alt="Nick fury" height="200px" >
+              <h3 class="my-3">Nick Fury</h3>
+              <p>Victoria es una estudiante excepcional.</p>
+            </article>
+          </div>
+
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -225,9 +206,6 @@
         </button>
       </div>
     </section>
-
-
-
   </main>
 
 
@@ -247,9 +225,9 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
