@@ -6,7 +6,7 @@ Fue dessarrollado en HTML, CSS y JS con el uso del framework de UI, Bootstrap, u
 
 La página es responsibla (adaptable a diferentes tamaños de pantalla) e incluye presentación de la autora del proyecto. 
 
-Proyecto desplegado https://zippy-cobbler-b52f76.netlify.app/ 
+Proyecto desplegado https://victoriabalderas.netlify.app/ 
 
 ## Secciones de mi sitio 
 ![Presentación](assets/readme/presentacion.png)
@@ -27,5 +27,6 @@ Proyecto desplegado https://zippy-cobbler-b52f76.netlify.app/
 ---
 
 Desarrollado con <3 por [Victoria](https://linkedin.com/in/victoria-balderass) en [Tecnolochicas](https://tecnolochicas.mx/)
+
 
 [def]: "assets/readme/presentacion.png"
